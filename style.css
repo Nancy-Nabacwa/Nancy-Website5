@@ -53,7 +53,8 @@ border: none;
 #navbar li{
     display:inline-block;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+	margin-top: 15px;
 
   }
   #nav-bar{
@@ -248,5 +249,30 @@ border: none;
 	float: left;
 	margin-left: 10px; 
  }
+ .checked{
+	color: yellow;
+ }
+ #Latter{
+	margin-top: 500px;
+ }
+ #lata{
+	display: flex;
+ }
+ .fb{
+	height: 20px;
+ }
+ #eleventhsection{
+	display: flex;
+	padding: 50px;
+ }
+ .rst{
+	padding: 50px;
+ }
+ #companylog{
+	margin-top: 50px;
+ }
+ 
+
+
 
 
