@@ -1,0 +1,252 @@
+body{
+	margin: 0%;
+	background-color: blue;
+}
+#whole{
+	
+	margin: 50px;
+	padding:50px ;
+	border: none;
+	background-color: white;
+	height: 4000px;
+	padding: 50px;
+
+}
+.topB{
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: blue; 
+	background-image: linear-gradient(lightblue, blue);
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 100;
+  height: 10px;
+  width: 80px;
+  border-radius: 50px;
+ 
+}
+.topB:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+  border-radius: 30px;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.icons{
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+#companylogo{
+  height: 50px;
+}
+#main-header{
+display: flex;
+border: none;
+}
+#navbar li{
+    display:inline-block;
+    justify-content: space-between;
+    padding: 20px;
+
+  }
+  #nav-bar{
+    margin:0;
+  }
+  #buton{
+	padding-top: 10px;
+  padding-left: 20px;
+	
+  }
+  #toppest{
+	display: flex;
+	padding-left: 300px;
+	padding-top: 10px;
+  }
+  .green{
+	height: 180px;
+	width:200px;
+	border-radius: 50%;
+  }
+  .firstsection{
+	display: flex;
+  }
+  #middle{
+	height: 180px;
+	width:200px;
+	border-radius: 50%;
+	margin-left: 100px;
+  }
+  .Red{
+	color: red;
+  }
+  #words{
+	margin-top: 100px;
+	margin-left: 50px;
+  }
+  #circles{
+	margin-top: 50px;
+	margin-left: 100px;
+  }
+  #p{
+	color: grey;
+	font-size: x-small;
+  }
+  #bg{
+	background-image: url(images/kitchen\ smiling);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 50px;
+	border-radius: 20%;
+
+  }
+  #into{
+	margin-top: 160px;
+	height: 250px;
+	margin-left: 350px;
+	width:280px;
+	border-radius: 50%;
+
+  }
+
+ .blueline{
+	display: flex;
+ }
+ .star{
+	height: 20px;
+	margin-top: 20px;
+ }
+ .secondsection{
+	display: flex;
+	margin-left: 50px;
+ }
+ #choose{
+	margin-left: 50px;
+ }
+ #thirdsection{
+	display: flex;
+ }
+ #inf{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin-top: 180px;
+	margin-left: 200px;
+ }
+ #bag{
+	background-image: url(images/vaccum.jpg);
+	border-radius: 50%;
+	width: 400px;
+	margin-left: 200px;
+ }
+ #first {
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+  }
+  
+  #second {
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; }
+  
+  #third {
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+  }
+  .B{
+	width:200px;
+	height:20px;
+	border-radius: 50px;
+	background-color: blue; 
+	background-image: linear-gradient(lightblue, blue);
+	text-align:center;
+	font-size: small;
+	bottom:0;
+	margin: 0 auto;
+	padding:15px;
+  }
+ #middlewords{
+	margin-left: 450px;
+	margin-top: 80px;
+ }
+ .topA{
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: grey; 
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight: 100;
+  height: 5px;
+  width: 80px;
+  border-radius: 50px;
+ }
+ 
+ #firs{
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+
+ }
+ #sec{
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+ }
+ #ther{
+	width: calc(33% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+ }
+ 
+ #fbotms{
+	margin-top: 400px;
+
+ }
+ #middlebwords{
+	margin-left: 350px;
+ }
+ #fimgs1{
+	width: calc(25% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+ }
+ #fimgs2{
+	width: calc(25% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+
+ }
+ #fimgs3{
+	width: calc(25% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+ }
+ #fimgs4{
+	width: calc(25% - 10px);
+	height: 20px;
+	float: left;
+	margin-left: 10px; 
+ }
+
+
