@@ -48,7 +48,8 @@ body{
 }
 #main-header{
 display: flex;
-border: none;
+max-width: 1160px;
+margin: 0 auto;
 }
 #navbar li{
     display:inline-block;
@@ -271,6 +272,15 @@ border: none;
  #companylog{
 	margin-top: 50px;
  }
+ @media whole and (max-width: 800px) {
+	#companylogo, #toppest {
+	  width: 100%; 
+	  margin-right: 50px;
+	  display: none;
+	}
+  }
+ 
+
  
 
 
